@@ -109,7 +109,7 @@ def draw():
     else:
         canvas.create_text(30, 20, font="Arial 10", text = f"Score: {score}", fill="white")
         
-    window.after(100, draw)
+    window.after(120, draw)
 
 draw()
 
